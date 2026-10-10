@@ -1,0 +1,30 @@
+{
+  "assessment": "New local BUSCO assessment of the original vendor nucleotide FASTA",
+  "part_of_original_vendor_delivery": false,
+  "input_relative_path": "vendor_analysis/extracted_results/OPL_mRNA_3_24201_Analysis_Results/Transcriptome DeNovo Assembly/Dinoponera gigantea Assembly.fa",
+  "input_sha256": "91823742241e3518a09c66561374a6031872eb2569d98669686cb3de15026216",
+  "command": "bash vendor_analysis/scripts/run_busco.sh --offline",
+  "software_versions": {
+    "python": [
+      3,
+      12,
+      15,
+      "final",
+      0
+    ],
+    "busco": "6.1.0",
+    "hmmsearch": 3.4,
+    "metaeuk": "7.bba0d80"
+  },
+  "lineage_dataset": {
+    "name": "eukaryota_odb12.2",
+    "creation_date": "2026-05-13",
+    "number_of_buscos": "125",
+    "number_of_species": "167"
+  },
+  "mode": "euk_tran",
+  "summary_relative_path": "vendor_analysis/data/qc/busco_results/short_summary.specific.eukaryota_odb12.2.busco_results.json",
+  "exported_at_utc": "2026-10-07T11:19:12.096317+00:00",
+  "comparison_source": "local_analysis/data/qc/busco_results/short_summary.specific.eukaryota_odb12.2.busco_results.json",
+  "same_lineage_release": true
+}

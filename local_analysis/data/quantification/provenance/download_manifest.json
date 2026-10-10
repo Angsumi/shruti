@@ -1,0 +1,169 @@
+{
+  "repository": "https://github.com/Angsumi/RNA_DE_Novo_Analysis",
+  "commit": "970c3a51eb0764c66f01340425acbffeec75e04e",
+  "retrieved_date": "2026-10-07",
+  "files": [
+    {
+      "source_path": "data/differential_expression/gene_level/trinity_matrix.gene.counts.matrix.AZ1_vs_AZ2.AZ1.vs.AZ2.EdgeR.Rscript",
+      "local_path": "local_analysis/data/quantification/provenance/source_scripts/trinity_matrix.gene.counts.matrix.AZ1_vs_AZ2.AZ1.vs.AZ2.EdgeR.Rscript",
+      "source_url": "https://raw.githubusercontent.com/Angsumi/RNA_DE_Novo_Analysis/970c3a51eb0764c66f01340425acbffeec75e04e/data/differential_expression/gene_level/trinity_matrix.gene.counts.matrix.AZ1_vs_AZ2.AZ1.vs.AZ2.EdgeR.Rscript",
+      "bytes": 1251,
+      "sha256": "c80749748209937b3e75398b157f1bd26c10e238773f0b76540918a6f62aeb8d",
+      "git_blob_sha": "94f66ced946e8313ca89253851af6b01d21d535b"
+    },
+    {
+      "source_path": "data/differential_expression/gene_level/trinity_matrix.gene.counts.matrix.AZ1_vs_AZ2.edgeR.count_matrix",
+      "local_path": "local_analysis/data/quantification/count_matrices/gene_level/trinity_matrix.gene.counts.matrix.AZ1_vs_AZ2.edgeR.count_matrix",
+      "source_url": "https://raw.githubusercontent.com/Angsumi/RNA_DE_Novo_Analysis/970c3a51eb0764c66f01340425acbffeec75e04e/data/differential_expression/gene_level/trinity_matrix.gene.counts.matrix.AZ1_vs_AZ2.edgeR.count_matrix",
+      "bytes": 526052,
+      "sha256": "2152126c9317b00333d4805e3922fd7afb2a0bb13c288b58314d0b8ba811edca",
+      "git_blob_sha": "0c406845e5b689d4c099ea103784fea931138670",
+      "data_rows": 17564,
+      "samples": [
+        "AZ1",
+        "AZ2"
+      ]
+    },
+    {
+      "source_path": "data/differential_expression/gene_level/trinity_matrix.gene.counts.matrix.AZ1_vs_AZ3.AZ1.vs.AZ3.EdgeR.Rscript",
+      "local_path": "local_analysis/data/quantification/provenance/source_scripts/trinity_matrix.gene.counts.matrix.AZ1_vs_AZ3.AZ1.vs.AZ3.EdgeR.Rscript",
+      "source_url": "https://raw.githubusercontent.com/Angsumi/RNA_DE_Novo_Analysis/970c3a51eb0764c66f01340425acbffeec75e04e/data/differential_expression/gene_level/trinity_matrix.gene.counts.matrix.AZ1_vs_AZ3.AZ1.vs.AZ3.EdgeR.Rscript",
+      "bytes": 1251,
+      "sha256": "f513b35abd6014157a822400f2f6aabdc3ff3eb1b588b8fd8a683ae30c83b883",
+      "git_blob_sha": "483542ff35ccf9287d20a5782ce0354028d7aa71"
+    },
+    {
+      "source_path": "data/differential_expression/gene_level/trinity_matrix.gene.counts.matrix.AZ1_vs_AZ3.edgeR.count_matrix",
+      "local_path": "local_analysis/data/quantification/count_matrices/gene_level/trinity_matrix.gene.counts.matrix.AZ1_vs_AZ3.edgeR.count_matrix",
+      "source_url": "https://raw.githubusercontent.com/Angsumi/RNA_DE_Novo_Analysis/970c3a51eb0764c66f01340425acbffeec75e04e/data/differential_expression/gene_level/trinity_matrix.gene.counts.matrix.AZ1_vs_AZ3.edgeR.count_matrix",
+      "bytes": 497804,
+      "sha256": "d12409c32aad173066520f8a9d4c5a46f3112c889f3083d12f2cd0b44ddc3b24",
+      "git_blob_sha": "b9b056e995831e25dea8a4fb0a3d804d5af76bd0",
+      "data_rows": 16776,
+      "samples": [
+        "AZ1",
+        "AZ3"
+      ]
+    },
+    {
+      "source_path": "data/differential_expression/gene_level/trinity_matrix.gene.counts.matrix.AZ2_vs_AZ3.AZ2.vs.AZ3.EdgeR.Rscript",
+      "local_path": "local_analysis/data/quantification/provenance/source_scripts/trinity_matrix.gene.counts.matrix.AZ2_vs_AZ3.AZ2.vs.AZ3.EdgeR.Rscript",
+      "source_url": "https://raw.githubusercontent.com/Angsumi/RNA_DE_Novo_Analysis/970c3a51eb0764c66f01340425acbffeec75e04e/data/differential_expression/gene_level/trinity_matrix.gene.counts.matrix.AZ2_vs_AZ3.AZ2.vs.AZ3.EdgeR.Rscript",
+      "bytes": 1251,
+      "sha256": "6bc2b23bd4514fd23db8348b245032d3317d02512b6baa80f70763e04e321b7c",
+      "git_blob_sha": "f07e8d320937a7d62bbcaa772a8442dfd51f9069"
+    },
+    {
+      "source_path": "data/differential_expression/gene_level/trinity_matrix.gene.counts.matrix.AZ2_vs_AZ3.edgeR.count_matrix",
+      "local_path": "local_analysis/data/quantification/count_matrices/gene_level/trinity_matrix.gene.counts.matrix.AZ2_vs_AZ3.edgeR.count_matrix",
+      "source_url": "https://raw.githubusercontent.com/Angsumi/RNA_DE_Novo_Analysis/970c3a51eb0764c66f01340425acbffeec75e04e/data/differential_expression/gene_level/trinity_matrix.gene.counts.matrix.AZ2_vs_AZ3.edgeR.count_matrix",
+      "bytes": 552425,
+      "sha256": "87adad5674d0b6c9d48f4abcd3b0988abcbb3044444e0628970d12cce6e934dc",
+      "git_blob_sha": "226e55ef9f6281b1a87598fc72112d941167bc8c",
+      "data_rows": 18649,
+      "samples": [
+        "AZ2",
+        "AZ3"
+      ]
+    },
+    {
+      "source_path": "data/differential_expression/isoform_level/trinity_matrix.isoform.counts.matrix.AZ1_vs_AZ2.AZ1.vs.AZ2.EdgeR.Rscript",
+      "local_path": "local_analysis/data/quantification/provenance/source_scripts/trinity_matrix.isoform.counts.matrix.AZ1_vs_AZ2.AZ1.vs.AZ2.EdgeR.Rscript",
+      "source_url": "https://raw.githubusercontent.com/Angsumi/RNA_DE_Novo_Analysis/970c3a51eb0764c66f01340425acbffeec75e04e/data/differential_expression/isoform_level/trinity_matrix.isoform.counts.matrix.AZ1_vs_AZ2.AZ1.vs.AZ2.EdgeR.Rscript",
+      "bytes": 1263,
+      "sha256": "13f5c34a6890985d3c7d7f0a04ec66f425c7be9a8ec1aab7bbf114a5fe7d654d",
+      "git_blob_sha": "8a672b9ec1753ef27b76b866e3d7c9b0748ea918"
+    },
+    {
+      "source_path": "data/differential_expression/isoform_level/trinity_matrix.isoform.counts.matrix.AZ1_vs_AZ2.edgeR.count_matrix",
+      "local_path": "local_analysis/data/quantification/count_matrices/isoform_level/trinity_matrix.isoform.counts.matrix.AZ1_vs_AZ2.edgeR.count_matrix",
+      "source_url": "https://raw.githubusercontent.com/Angsumi/RNA_DE_Novo_Analysis/970c3a51eb0764c66f01340425acbffeec75e04e/data/differential_expression/isoform_level/trinity_matrix.isoform.counts.matrix.AZ1_vs_AZ2.edgeR.count_matrix",
+      "bytes": 921421,
+      "sha256": "1d237140a95fb0cf6d08a03e322d8147f942b9645da0670ed764ab2c3c395297",
+      "git_blob_sha": "4e55b2045db7c9066f324606f487defab3e0e702",
+      "data_rows": 28083,
+      "samples": [
+        "AZ1",
+        "AZ2"
+      ]
+    },
+    {
+      "source_path": "data/differential_expression/isoform_level/trinity_matrix.isoform.counts.matrix.AZ1_vs_AZ3.AZ1.vs.AZ3.EdgeR.Rscript",
+      "local_path": "local_analysis/data/quantification/provenance/source_scripts/trinity_matrix.isoform.counts.matrix.AZ1_vs_AZ3.AZ1.vs.AZ3.EdgeR.Rscript",
+      "source_url": "https://raw.githubusercontent.com/Angsumi/RNA_DE_Novo_Analysis/970c3a51eb0764c66f01340425acbffeec75e04e/data/differential_expression/isoform_level/trinity_matrix.isoform.counts.matrix.AZ1_vs_AZ3.AZ1.vs.AZ3.EdgeR.Rscript",
+      "bytes": 1263,
+      "sha256": "ad77286287c820ec60cfa81d9c80f67ca92d4b61bdd1126fce59046089e045ab",
+      "git_blob_sha": "815d7fc73c309dd2be6680db6942c833e70b364b"
+    },
+    {
+      "source_path": "data/differential_expression/isoform_level/trinity_matrix.isoform.counts.matrix.AZ1_vs_AZ3.edgeR.count_matrix",
+      "local_path": "local_analysis/data/quantification/count_matrices/isoform_level/trinity_matrix.isoform.counts.matrix.AZ1_vs_AZ3.edgeR.count_matrix",
+      "source_url": "https://raw.githubusercontent.com/Angsumi/RNA_DE_Novo_Analysis/970c3a51eb0764c66f01340425acbffeec75e04e/data/differential_expression/isoform_level/trinity_matrix.isoform.counts.matrix.AZ1_vs_AZ3.edgeR.count_matrix",
+      "bytes": 855553,
+      "sha256": "4086a3ebc36c21ae8f9f6fb8990d1b2338208da37ec82ad142c7245ca76f16e9",
+      "git_blob_sha": "16b6f6236205b1041ad5469b4bf1ee509226f2a2",
+      "data_rows": 26253,
+      "samples": [
+        "AZ1",
+        "AZ3"
+      ]
+    },
+    {
+      "source_path": "data/differential_expression/isoform_level/trinity_matrix.isoform.counts.matrix.AZ2_vs_AZ3.AZ2.vs.AZ3.EdgeR.Rscript",
+      "local_path": "local_analysis/data/quantification/provenance/source_scripts/trinity_matrix.isoform.counts.matrix.AZ2_vs_AZ3.AZ2.vs.AZ3.EdgeR.Rscript",
+      "source_url": "https://raw.githubusercontent.com/Angsumi/RNA_DE_Novo_Analysis/970c3a51eb0764c66f01340425acbffeec75e04e/data/differential_expression/isoform_level/trinity_matrix.isoform.counts.matrix.AZ2_vs_AZ3.AZ2.vs.AZ3.EdgeR.Rscript",
+      "bytes": 1263,
+      "sha256": "297357d9a922757f88bb451cdabaedc323bda4793ba857bb254d14853ccb513c",
+      "git_blob_sha": "7060c8e62cf105f07fa9c8b1aa24ec4144a5efa3"
+    },
+    {
+      "source_path": "data/differential_expression/isoform_level/trinity_matrix.isoform.counts.matrix.AZ2_vs_AZ3.edgeR.count_matrix",
+      "local_path": "local_analysis/data/quantification/count_matrices/isoform_level/trinity_matrix.isoform.counts.matrix.AZ2_vs_AZ3.edgeR.count_matrix",
+      "source_url": "https://raw.githubusercontent.com/Angsumi/RNA_DE_Novo_Analysis/970c3a51eb0764c66f01340425acbffeec75e04e/data/differential_expression/isoform_level/trinity_matrix.isoform.counts.matrix.AZ2_vs_AZ3.edgeR.count_matrix",
+      "bytes": 959890,
+      "sha256": "db7697094f27e231b63a937b25ef2421a4c074ee64375e2a24cff5370b5aee6f",
+      "git_blob_sha": "06f939a9d8f7d7d22a1c618fb9f903ae297a2289",
+      "data_rows": 29480,
+      "samples": [
+        "AZ2",
+        "AZ3"
+      ]
+    },
+    {
+      "source_path": "results/tables/csv/de_genes_expression_matrix.csv",
+      "local_path": "local_analysis/results/tables/csv/de_genes_expression_matrix.csv",
+      "source_url": "https://raw.githubusercontent.com/Angsumi/RNA_DE_Novo_Analysis/970c3a51eb0764c66f01340425acbffeec75e04e/results/tables/csv/de_genes_expression_matrix.csv",
+      "bytes": 18242,
+      "sha256": "2f2fa5887b69ed4845ff162fa171a97c22c67d150e7101a00b93dfdfc02d0025",
+      "git_blob_sha": "885609c69726e9a19536b5280b936eec9750af7f",
+      "data_rows": 432,
+      "samples": [
+        "AZ1",
+        "AZ2",
+        "AZ3"
+      ]
+    },
+    {
+      "source_path": "results/tables/tsv/de_genes_expression_matrix.tsv",
+      "local_path": "local_analysis/results/tables/tsv/de_genes_expression_matrix.tsv",
+      "source_url": "https://raw.githubusercontent.com/Angsumi/RNA_DE_Novo_Analysis/970c3a51eb0764c66f01340425acbffeec75e04e/results/tables/tsv/de_genes_expression_matrix.tsv",
+      "bytes": 18242,
+      "sha256": "5e628738d6540820256a566ea7acf64b2341981ec61b74b52bd0f38c22a587e1",
+      "git_blob_sha": "0d418add4dfbebcb79dc1d517ff02986a9c137e5",
+      "data_rows": 432,
+      "samples": [
+        "AZ1",
+        "AZ2",
+        "AZ3"
+      ]
+    },
+    {
+      "source_path": "scripts/05_downstream_analysis/generate_csv_data.py",
+      "local_path": "local_analysis/data/quantification/provenance/source_scripts/generate_csv_data.py",
+      "source_url": "https://raw.githubusercontent.com/Angsumi/RNA_DE_Novo_Analysis/970c3a51eb0764c66f01340425acbffeec75e04e/scripts/05_downstream_analysis/generate_csv_data.py",
+      "bytes": 6140,
+      "sha256": "398913c909ea709ce895e1d09f588138a4fc4b389c74eed4f6507b17c22958bc",
+      "git_blob_sha": "3b6d9fab5fe0ce14b44c0c80ecca18990097898d"
+    }
+  ]
+}

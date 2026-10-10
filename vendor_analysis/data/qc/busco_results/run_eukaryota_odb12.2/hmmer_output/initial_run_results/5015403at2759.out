@@ -1,0 +1,30 @@
+#                                                                                                                          --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                      accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                              ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+5015403at2759_610380_0:0011b8|TRINITY_DN558496_c0_g1_i1:1-1086|+   -            362 5015403              -            323  8.8e-122  401.7   4.1   1   2   6.5e-43     4e-41  136.7   0.4    35   128    19   115    10   128 0.91 -
+5015403at2759_610380_0:0011b8|TRINITY_DN558496_c0_g1_i1:1-1086|+   -            362 5015403              -            323  8.8e-122  401.7   4.1   2   2   1.8e-82   1.1e-80  266.7   0.3   125   317   143   354   134   362 0.88 -
+5015403at2759_1306850_0:002971|TRINITY_DN31245_c0_g1_i1:0-458|+    -            153 5015403              -            323   8.9e-57  188.1   0.0   1   1   1.6e-58     1e-56  188.0   0.0   193   312    11   140     2   153 0.88 -
+5015403at2759_160502_0:00229c|TRINITY_DN776592_c0_g1_i1:42-524|+   -            161 5015403              -            323   1.5e-37  124.9   0.0   1   1   2.8e-39   1.7e-37  124.8   0.0    77   225     1   161     1   161 0.85 -
+5015403at2759_160502_0:00229c|TRINITY_DN171854_c0_g1_i1:32-475|+   -            148 5015403              -            323   2.9e-30  101.0   0.1   1   1   1.1e-31   6.9e-30   99.8   0.1    95   224     4   147     2   148 0.81 -
+5015403at2759_82763_0:006785|TRINITY_DN2335_c0_g7_i1:3299-4030|+   -            244 5015403              -            323     1e-24   82.8   0.0   1   1   2.2e-26   1.3e-24   82.4   0.0    16   162    91   244    79   244 0.85 -
+5015403at2759_82763_0:006785|TRINITY_DN467702_c0_g1_i1:4593-5333|- -            247 5015403              -            323   2.1e-20   68.6   0.0   1   1   4.3e-22   2.7e-20   68.3   0.0    22   162   100   247    92   247 0.81 -
+5015403at2759_423536_0:0047ad|TRINITY_DN2335_c0_g7_i1:4106-4288|+  -             61 5015403              -            323   1.5e-19   65.8   0.2   1   1   2.7e-21   1.7e-19   65.6   0.2   175   230     1    61     1    61 0.90 -
+5015403at2759_1490495_0:0075ed|TRINITY_DN23924_c0_g1_i1:16-474|+   -            153 5015403              -            323   8.9e-18   60.0   0.0   1   1   1.9e-19   1.1e-17   59.6   0.0    77   217     1   153     1   153 0.83 -
+5015403at2759_423536_0:0047ad|TRINITY_DN209815_c0_g1_i1:341-544|+  -             68 5015403              -            323   2.6e-16   55.1   0.2   1   1   4.7e-18   2.9e-16   55.0   0.2   175   230     1    61     1    65 0.89 -
+5015403at2759_423536_0:0047ad|TRINITY_DN209815_c0_g1_i2:274-477|+  -             68 5015403              -            323   2.6e-16   55.1   0.2   1   1   4.7e-18   2.9e-16   55.0   0.2   175   230     1    61     1    65 0.89 -
+5015403at2759_160502_0:00229c|TRINITY_DN704267_c0_g1_i1:0-293|+    -             98 5015403              -            323   2.8e-12   41.9   1.0   1   2   0.00032     0.019    9.6   0.2   153   170     1    18     1    21 0.87 -
+5015403at2759_160502_0:00229c|TRINITY_DN704267_c0_g1_i1:0-293|+    -             98 5015403              -            323   2.8e-12   41.9   1.0   2   2   7.2e-11   4.4e-09   31.4   0.0   171   224    39    97    33    98 0.85 -
+5006326at2759_82763_0:0022a2|TRINITY_DN2335_c0_g7_i1:4316-6724|+   -            803 5015403              -            323   3.9e-09   31.6   0.0   1   2       4.2   2.6e+02   -4.0   0.0   173   198   419   444   416   445 0.86 -
+5006326at2759_82763_0:0022a2|TRINITY_DN2335_c0_g7_i1:4316-6724|+   -            803 5015403              -            323   3.9e-09   31.6   0.0   2   2   1.3e-10   8.2e-09   30.5   0.0   232   311   703   788   697   798 0.86 -
+5006326at2759_82763_0:009fa9|TRINITY_DN73301_c0_g2_i1:1578-2465|-  -            296 5015403              -            323     5e-07   24.6   0.0   1   1   1.6e-08   9.6e-07   23.7   0.0   237   310   201   280   191   293 0.83 -
+5006326at2759_82763_0:00769a|TRINITY_DN44766_c0_g1_i1:991-2805|-   -            605 5015403              -            323   3.7e-06   21.8   0.0   1   1   8.6e-08   5.3e-06   21.3   0.0   238   305   532   605   524   605 0.86 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/angsuman/extra_spac/RNA_DE_Novo_Analysis/vendor_analysis/data/qc/busco_downloads/lineages/eukaryota_odb12.2/hmms/5015403at2759.hmm
+# Target file:     /home/angsuman/extra_spac/RNA_DE_Novo_Analysis/vendor_analysis/data/qc/busco_results/run_eukaryota_odb12.2/metaeuk_output/initial_results/Dinoponera gigantea Assembly.fa.modified.fas
+# Option settings: hmmsearch --domtblout /home/angsuman/extra_spac/RNA_DE_Novo_Analysis/vendor_analysis/data/qc/busco_results/run_eukaryota_odb12.2/hmmer_output/initial_run_results/5015403at2759.out --cpu 1 /home/angsuman/extra_spac/RNA_DE_Novo_Analysis/vendor_analysis/data/qc/busco_downloads/lineages/eukaryota_odb12.2/hmms/5015403at2759.hmm /home/angsuman/extra_spac/RNA_DE_Novo_Analysis/vendor_analysis/data/qc/busco_results/run_eukaryota_odb12.2/metaeuk_output/initial_results/Dinoponera gigantea Assembly.fa.modified.fas 
+# Current dir:     /home/angsuman/extra_spac/RNA_DE_Novo_Analysis
+# Date:            Wed Oct  7 16:18:08 2026
+# [ok]

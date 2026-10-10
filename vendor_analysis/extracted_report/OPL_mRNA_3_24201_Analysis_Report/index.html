@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="src/js/script.js" defer></script>
+    <link rel="stylesheet" href="src/css/style.css">
+	<link rel="stylesheet" href="src/css/styles_tab.css">
+	<link rel="icon" type="image/x-icon" href="src/images/favicon.png">
+	<title>RNAseq Analysis</title>
+
+
+
+
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+  <script type="javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript"text/javascript src="src/js/scroll-to-top.js"></script>
+
+
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+		<script type="text/javascript">
+		var jQuery_3_4_1 = $.noConflict(true);
+		</script>
+
+		<script>
+            jQuery_3_4_1(document).ready(function() {
+                jQuery_3_4_1("#gfg").on("keyup", function() {
+                    var value = jQuery_3_4_1(this).val().toLowerCase();
+                    jQuery_3_4_1("#geeks tr").filter(function() {
+                        jQuery_3_4_1(this).toggle(jQuery_3_4_1(this).text()
+                        .toLowerCase().indexOf(value) > -1)
+                    });
+                });
+            });
+    </script>
+
+
+</head>
+
+
+<body>
+     <!-- Return to Top -->
+
+<a id="return--to-top" onclick="topFunction()"><i class="icon-chevron-up"></i></a>
+
+<header id="header" style="z-index: 1">
+
+	<div id="navbar" class="container">
+
+      <a href="https://oneomics.in/" href="#"><img class="logo" align="left" src="src/images/logo1.png"  width="345px" height="30px"> </a>
+
+        <nav class="main-nav" >
+
+       	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto" class="tabs">
+                <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
+
+                <li class="tab active" data-tab-target="#home">
+                    Home
+                </li>
+                <li class="tab" data-tab-target="#sampleinfo">
+                    Project Information
+                </li>
+                <li class="tab" data-tab-target="#qc">
+                    Data QC
+                </li>
+                <li class="tab" data-tab-target="#mapping">
+                    DeNovo Assembly and Annotation
+                </li>
+                <li class="tab" data-tab-target="#more">
+                    More
+                </li>
+            </ul>
+        </div>
+        </nav>
+        </div>
+</header>
+
+
+
+<div class="tab-content">
+
+<div id="home" class="active" data-tab-content >
+
+        <div class="heading" >
+
+          <h1  class="header-line">Transcriptome Analysis Report (DeNovo Method)</h1>
+        </div>
+<!-- table -->
+        <div class="home-table">
+
+<table class="center" style="width:70%">
+    <tr>
+        <td style="width:28%" class="tb-hd">Scientist / PI Name</td>
+        <td style="width:22%">Dr. Gurusubramaniyam </td>
+    </tr>
+    <tr>
+        <td class="tb-hd">Institution/Company</td>
+        <td>Mizoram University</td>
+    </tr>
+
+    <tr>
+        <td class="tb-hd">Project ID</td>
+        <td>OPL_mRNA_3_24201</td>
+    </tr>
+
+    <tr>
+        <td class="tb-hd">Salesperson</td>
+        <td>Gowri Shankar J</td>
+    </tr>
+    <tr>
+        <td class="tb-hd">Contact</td>
+        <td>sales@oneomics.in</td>
+    </tr><br><br>
+</table>
+</div>
+</div>
+
+<!-- Project info-->
+<div id="sampleinfo" data-tab-content>
+
+
+      <div class="sample-info" >
+        <div class="sample">
+          <h2 class="fhead"> 1. Project Information</h2>
+          <h2 class="fhead">1.1. General Information</h2>
+          <table class="sam-tab" style="width:50% ">
+    <tr>
+        <td class="thd">Organism</td>
+        <td> <i> 
+Dinoponera gigantea</td>
+    </tr>
+    <tr>
+        <td class="thd">No.of Samples</td>
+        <td>3</td>
+    </tr>
+    
+</table>
+
+
+<h2 class="fhead">1.3. Bioinformatics Software</h2>
+<table class="project-info" style="width: ">
+    <thead class="thead">
+        <tr>
+            <th>Analysis item</th>
+            <th>Software</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Quality control</td>
+            <td>FastQC</td>
+        </tr>
+        <tr>
+            <td>Adapter removing</td>
+            <td>TrimGalore</td>
+        </tr>
+         <tr>
+            <td>DeNovo Assembly</td>
+            <td>Trinity</td>
+        </tr>
+        <tr>
+            <td>Transcriptome Annotation</td>
+            <td>Trinotate</td>
+        </tr>
+        <tr>
+            <td>Mapping</td>
+            <td>Hisat2</td>
+        </tr>
+        <tr>
+            <td>Quantification</td>
+            <td>Htseq</td>
+        </tr>
+        <tr>
+            <td>AMP Analysis</td>
+            <td>DRAMP Database</td>
+        </tr>
+    </tbody>
+</table>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<!-- Data qc -->
+<div class="data_qc" id="qc" data-tab-content>
+
+  <div class="qc">
+
+    <h2 class="fhead">2. Quality Control and Statistics of Raw Reads</h2>
+    <p>Raw data (raw reads) of FASTQ format were firstly processed through fastqc. FastQC aims to provide a simple way to do some quality control checks on raw sequence data coming from high throughput sequencing pipelines.</p>
+    <table class="center" style="margin-left: auto; margin-right: auto; text-align: center;width:50% " cellpadding="5" cellspacing="1" border="1">
+    <thead class="thead">
+        <tr>
+            <th rowspan="2">Sample ID</th>
+            <th rowspan="2">Data size(GB)</th>
+            <th colspan="5">Raw Data</th>
+            <th colspan="5">Clean Data</th>
+            <th rowspan="2">Read Length(bp)</th>
+        </tr>
+        <tr>
+            <th>Total Raw Reads</th>
+            <th>Total Number of bases(bp)</th>
+            <th>GC%</th>
+            <th>Phred Score</th>
+            <th>Q30 score</th>
+            <th>Total Clean Reads</th>
+            <th>Total Number of bases(bp)</th>
+            <th>GC%</th>
+            <th>Phred Score</th>
+            <th>Q30 score</th>
+            
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>AZ1</td>
+            <td>4.18</td>
+            <td>27,900,218
+
+
+</td>
+            <td>4,185,032,700
+
+
+</td>
+            <td>45</td>
+            <td>39</td>
+            <td>97.07</td>
+            <td>27,843,294
+
+
+</td>
+            <td>4,176,494,100
+
+
+
+</td>
+            <td>44</td>
+            <td>39</td>
+            <td>97.43</td>
+         <td>150</td>
+            
+        </tr>
+        <tr>
+            <td>AZ2</td>
+             <td>4.99</td>
+            <td>33,310,714
+
+</td>
+            <td>4,996,607,100
+
+
+</td>
+            
+            <td>52</td>
+            <td>39</td>
+            <td>96.88</td>
+            <td>28,228,772
+
+</td>
+            <td>4,234,315,800
+
+
+
+</td>
+            <td>45</td>
+            <td>39</td>
+            <td>97.54</td>
+           
+            <td>150</td>
+        </tr>
+        <tr>
+            <td>AZ3</td>
+            <td>2.87</td>
+            <td>19,140,116
+
+</td>
+            <td>2,871,017,400
+
+</td>
+           
+            <td>49</td>
+            <td>39</td>
+            <td>96.89</td>
+            <td>17,348,446
+
+
+</td>
+            <td>2,602,266,900
+
+
+
+</td>
+            <td>44</td>
+            <td>39</td>
+            <td>97.51</td>
+             <td>150</td>
+            
+        </tr>
+         
+         
+    </tbody>
+</table>
+<p class="fig"><i>Multiqc report of Raw Reads</i></p>
+
+<ul style="list-style-type:square;">
+    <li>Sample ID: Sample name</li>
+    <li>Total Raw reads: The original sequence data output by the instrument for a specific sample</li>
+    <li>Total Number of bases(bp): The original sequence data in base pairs</li>
+    <li>Read length: Average Read Length (bp)</li>
+    <li>GC: Average % GC Content</li>
+    <li>Phred Score: The measure of base quality of the sequencing data</li> 
+    <li>Q30 score: The percentage of bases with higher Phred score than  30 in total bases</li>
+    <li>Data size(GB): The size of original sequence data in giga base pairs</li>
+   
+</ul>
+
+<h2 class="fhead">2.1. Per base sequence quality plot</h2>
+<div class="fastqc">
+    <img src="src/pictures/qc.png" style="width: 600px;">
+</div>
+
+
+<h2 class="fhead">2.2. Per sequence gc content plot</h2>
+<div class="fastqc">
+    <img src="src/pictures/fastqc_gc.png" style="width: 600px;">
+</div>
+</div>
+</div>
+
+
+<!--MAPPING ----->
+<div class="mapping" id="mapping" data-tab-content>
+
+  <div class="map">
+    <h2 class="fhead">3. DeNovo Assembly</h2>
+
+     <p>De novo transcriptome assembly is the de novo sequence assembly method of creating a transcriptome without the aid of a reference genome. The Trinity tool represents a novel method for the efficient and robust de novo reconstruction of transcriptomes from RNA-seq data. </p>
+	<h2 class="fhead">3.1. Statistics of Transcriptome Assembly</h2>
+    
+     <table class="center" style="margin-left: auto; margin-right: auto; text-align: center;width:50% " cellpadding="5" cellspacing="1" border="1">
+    <thead class="thead">
+        <tr>
+            <th>Total Transcripts</th>
+            <th>Total Unigenes</th>
+            <th>Total Length</th>
+            <th>GC %</th>
+
+        </tr>
+    </thead>
+    <tbody>
+       <tr>
+            <td>318,934</td>
+            <td>31,353</td>
+            <td>149,464,614</td>
+            <td>44.24</td>
+
+        </tr>
+    </tbody>
+</table>
+<p class="fig"><i>Statistics of  Transcriptome Assembly</i></p>
+<p>The detailed information is as follows:</p>
+<ul style="list-style-type:square;">
+    <li>Total Transcripts:No.of transcripts in the assembly</li>
+    <li>Total genes: No.of genes in the assembly</li>
+    <li>Total length: the total length of the assembled transcriptomic sequence</li>
+    <li>GC %:Percentage of GC content</li>
+</ul>
+
+<h2 class="fhead">4. Structural and Functional Annotation </h2>
+<p>Trinotate is a comprehensive annotation suite designed for automatic functional annotation of transcriptomes, from model or non-model organisms. Trinotate makes use of a number of different well methods for functional annotation including homology search to known sequence data (BLAST+/SwissProt), protein domain identification (HMMER/PFAM), and leveraging various annotation databases (eggNOG/GO/Kegg databases).
+</p>
+<table class="sam-tab" style="width: ">
+    <thead class="thead">
+        <tr>
+            <th>Category</th>
+            <th>Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        
+        <tr>
+            <td>Gene Ontology Terms</td>
+            <td>145</td>
+        </tr>
+        <tr>
+            <td>Pfam</td>
+            <td>140</td>
+        </tr>
+        <tr>
+            <td>PRINTS</td>
+            <td>38</td>
+        </tr>
+        <tr>
+            <td>Reactome</td>
+            <td>179</td>
+        </tr>
+        <tr>
+            <td>MetaCyc</td>
+            <td>141</td>
+        </tr>
+    </tbody>
+</table>
+<p class="fig"><i>Functional annotation statistics</i></p>
+
+
+
+
+
+<h2 class="fhead">5. Mapping Statistics with Reference Genome </h2>
+<p>Reference genome and gene model annotation files were downloaded from genome website browser (NCBI/UCSC/Ensembl) directly. Paired-end reads were aligned to the
+reference genome using the BWA tool.</p>
+ <table class="center" style="margin-left: auto; margin-right: auto; text-align: center;width:50% " cellpadding="5" cellspacing="1" border="1">
+    <thead class="thead">
+        <tr>
+            <th>Sample ID</th>
+            <th>Total reads</th>
+            <th>Mapped reads</th>
+            <th>Mapping percentage (%)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>AZ1</td>
+            <td>27,843,294</td>
+            <td>10,769,660</td>
+            <td>38.68</td>
+        </tr>
+        <tr>
+            <td>AZ2</td>
+            <td>28,228,772</td>
+            <td>9,136,385</td>
+            <td>32.37</td>
+        </tr>
+        <tr>
+            <td>AZ3</td>
+            <td>17,348,446</td>
+            <td>6,751,968</td>
+            <td>38.92</td>
+        </tr>
+    </tbody>
+</table>
+<p class="fig"><i>Qc of mapping reads</i></p>
+<ul style="list-style-type:square;">
+    <li>Sample ID : Sample names</li>
+    <li>Total reads : Total number of effective reads in clean data</li>
+    <li>The number of clean reads mapped to the reference assembly, including both single-end reads and reads in pairs</li>
+    <li>Mapping rate : The ratio of the reference genome assembly mapped reads to the total sequenced clean reads</li>
+</ul>
+
+<h2 class="fhead">6. Expressed Genes</h2>
+<p>The annotation file available with the reference genome has been used to quanitfy the number of genes expressed in each sample using the tool HtSeq. </p>
+
+<table class="sam-tab" style="width: ">
+    <thead class="thead">
+        <tr>
+            <th>Sample ID</th>
+            <th>Expressed Unigene Count</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>AZ1</td>
+            <td>27,926</td>
+           
+        </tr>
+        <tr>
+            <td>AZ2</td>
+            <td>18,962</td>
+            
+        </tr>
+        <tr>
+            <td>AZ3</td>
+            <td>15,381</td>
+            
+        </tr>
+    
+    </tbody>
+</table>
+
+  </div>
+  </div>
+<!-- VARIANT CALLING------->
+
+<div class="variants" id="variant" data-tab-content>
+
+  <div class="variant">
+
+
+    <h2 class="fhead">4. Variant Calling</h2>
+ <p>Single nucleotide polymorphism (SNP) refers to a variation in a single nucleotide which may occur at some specific position in the genome, including transition and transversion of a single nucleotide. We detected the individual SNP variations using freeBayes with the following parameter.</p>
+ <p>To reduce the error rate in SNP detection, we filtered the results with the criterion as follows:</p>
+ <ul style="list-style-type:square;">
+    <li>The filtered depth (DP) for each SNP should be more than 30</li>
+    <li>The mapping quality of each SNP should be higher than 30</li>
+</ul>
+
+<h2 class="fhead">4.1. Variant Calling Statistics</h2>
+
+ <table class="center" style="margin-left: auto; margin-right: auto; text-align: center;width:50% " cellpadding="5" cellspacing="1" border="1">
+    <thead class="thead">
+        <tr><th rowspan="2">Samples</th><th colspan="3">SNPs</th><th colspan="3">InDels</th></tr>          
+        <tr><th>DP>20</th><th>DP>30</th><th>DP>40</th><th>DP>20</th><th>DP>30</th><th>DP>40</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>MDU1</td><td>4,23,027</td><td>1,73,882</td><td>81,057</td><td>45,721</td><td>17,970</td><td>8,440</td></tr>
+   </tbody>
+</table>
+</div>
+    </div>
+  
+
+
+
+<!-- Variant Annotation-->
+
+<div class="variant_annotation" id="variant_annotation" data-tab-content>
+
+  <div class="variant_annotation">
+
+
+    
+</div>
+
+  </div>
+
+
+  <!--MORE--------->
+  <div class="more" id="more" data-tab-content>
+
+    <div class="more-info">
+
+
+      
+
+                <div class="other-services">
+                    <h3 class="fhead">Other Services</h3>
+                    <ul class="service" style="list-style-type:square;">
+                        <li> <a href="https://oneomics.in/genome" target="_blank" style="text-decoration:none">Whole Genome Sequencing (WGS)</a>
+                        </li>
+                        <li> <a href="https://oneomics.in/genome" target="_blank" style="text-decoration:none">Whole Exome Sequencing (WES)</a>
+                        </li>
+                        <li> <a href="https://oneomics.in/genome" target="_blank"style="text-decoration:none">Whole Genome Bisulphite Sequencing (WGBS)</a>
+                        </li>
+
+                        <li> <a href="https://oneomics.in/metagenome" target="_blank"style="text-decoration:none">16s rRNA / 18s rRNA / ITS - Metagenome Sequencing</a>
+                        </li>
+                        <li> <a href="https://oneomics.in/metagenome" target="_blank"style="text-decoration:none">Shotgun Metagenome Sequencing</a>
+                        </li>
+                        <li> <a href="https://oneomics.in/transcriptome" target="_blank"style="text-decoration:none">Whole Transcriptome Sequencing (WTS)</a>
+                        </li>
+                        <li> <a href="https://oneomics.in/transcriptome" target="_blank"style="text-decoration:none">RNA Sequencing (mRNA)</a>
+                        </li>
+                        <li> <a href="https://oneomics.in/transcriptome" target="_blank"style="text-decoration:none">Small RNA / miRNA Sequencing</a>
+                        </li>
+                        <li> <a href="https://oneomics.in/transcriptome" target="_blank"style="text-decoration:none">Single-Cell RNA Sequencing</a>
+                        </li>
+                        <li> <a href="https://oneomics.in/transcriptome" target="_blank"style="text-decoration:none">Isoform Sequencing (Iso-Seq)</a>
+                        </li>
+                        <li> <a href="https://oneomics.in/epigenome" target="_blank"style="text-decoration:none">ChIP-Sequencing</a>
+                        </li>
+                        <li> <a href="https://oneomics.in/genotyping" target="_blank"style="text-decoration:none">Genotyping by Sequencing (GBS)</a>
+                        </li>
+                        <li> <a href="https://oneomics.in/bioinfomatic-analysis" target="_blank"style="text-decoration:none">Custom Bioinformatics Analysis</a>
+                        </li>
+
+                    </ul>
+      </div>
+      <div class="fhead">
+                                <h3 class="fhead">Clinical Services</h3>
+                                <ul class="service" style="list-style-type:square;">
+                                    <li>Clinical Exome Sequencing</li>
+                                    <li>Gut Microbiome</li>
+                                    <li>Vaginal & Baby Microbiome</li>
+                                    <li>Rare Disease Genetic Testing</li>
+                                    <li>Diabetic Foot Ulcer</li>
+                                    <li>Oral Cancer Screening</li>
+                                    </ul>
+                                </div>
+                        <div class="Products">
+                                <h3 class="sub-head">Products</h3>
+                                <ul class="service" >
+                                    <li> <a href="https://oneomics.in/saliva-collection-kit" target="_blank"style="text-decoration:none">Saliva Collection Kit</a>
+                                    </li>
+                                        <li>Fecal Collection Kit</li>
+                                        <li>SaaS based Rare Disease Analysis Platform</li>
+
+            <head>
+              <title>Zero-Prep Saliva Collection Kit</title>
+              <style>
+                .float-right {
+                  float: right;
+                  margin-left: 10px;
+                }
+                #img-ali {
+                  display: block;
+                  margin: 0 auto;
+                }
+              </style>
+            </head>
+            <body>
+              <img class="float-right" style="width: 500px" src="src/images/saliva.jpeg" alt="Services">
+              <h3 class="sub-head">Zero-Prep Saliva Collection Kit</h3>
+              <ul class="service">
+                <li>Easy, fast, non-invasive, Zero-Prep: sample collection method</li>
+                <li>Affordable price compared to existing traditional diagnosis methods</li>
+                <li>Kids &amp; Old age people can be diagnosed from home</li>
+                <li>Extremely useful to diagnose oncogenesis and tumor progression, especially in Oral Cancer</li>
+                <li>Stabilizes buccal cells and white blood cells found in saliva over 1 year at Room Temperature</li>
+                <li>Safe &amp; robust collection, transportation and storage of saliva samples</li>
+              </ul>
+              <h3 class="sub-head">Applications</h3>
+              <ul class="service">
+                <li>PCR &amp; qPCR</li>
+                <li>Next Generation Sequencing</li>
+                <li>SNP analysis</li>
+                <li>Microarrays</li>
+                <li>Southern Blot</li>
+                <li>Methylation studies</li>
+              </ul>
+
+            </body>
+                </div>
+    </div>
+</div>
+
+<footer>
+
+  <div class="foot-sec">
+      <p>Email : <a href="mailto:sales@oneomics.in">sales@oneomics.in</a>
+      <br>
+      Mobile : +91 96597 91914 | +91 93605 50465 <br>
+      Office : 0431-2963465 <br>
+      F12, Bharathidasan University Technology Park, Khajamalai Campus, <br>Tiruchirappalli - 620 023, TamilNadu, India.</p>
+      <p> <img src="src/images/logo.png" height="35px" width="170px">
+      </p>
+  </div>
+
+</footer>
+
+<!--
+<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script  src="src/js/return-top-script.js" type="javascript"></script>
+-->
+</body>
+</html>

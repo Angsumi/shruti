@@ -1,0 +1,26 @@
+#                                                                                                                          --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                      accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                              ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+4823929at2759_860918_0:0025cb|TRINITY_DN633974_c0_g1_i1:1-597|+    -            199 4823929              -            430   4.8e-84  277.4   0.0   1   1   1.1e-85   5.3e-84  277.3   0.0   216   421     1   199     1   199 0.97 -
+4823929at2759_64683_0:002e8a|TRINITY_DN942553_c0_g1_i1:1-330|-     -            110 4823929              -            430   7.3e-45  148.3   1.1   1   1   1.7e-46     8e-45  148.2   1.1     3   106     6   109     4   110 0.97 -
+4823929at2759_1821823_0:0003cd|TRINITY_DN177975_c0_g1_i1:2-817|-   -            272 4823929              -            430   1.1e-37  124.6   0.5   1   3   4.9e-19   2.3e-17   57.7   0.0    17   113     2   110     1   112 0.87 -
+4823929at2759_1821823_0:0003cd|TRINITY_DN177975_c0_g1_i1:2-817|-   -            272 4823929              -            430   1.1e-37  124.6   0.5   2   3   3.5e-14   1.7e-12   41.6   0.1   107   138   142   173   134   179 0.90 -
+4823929at2759_1821823_0:0003cd|TRINITY_DN177975_c0_g1_i1:2-817|-   -            272 4823929              -            430   1.1e-37  124.6   0.5   3   3   3.5e-08   1.7e-06   21.9   0.3   139   167   206   234   204   256 0.86 -
+4823929at2759_3649_0:00352d|TRINITY_DN164167_c0_g1_i1:16-339|-     -            108 4823929              -            430   9.7e-19   62.2   0.0   1   1   2.3e-20   1.1e-18   62.1   0.0    10   104     1   107     1   108 0.88 -
+4823929at2759_1821823_0:0005d6|TRINITY_DN659030_c0_g1_i1:119-454|+ -            112 4823929              -            430   4.6e-15   50.1   0.0   1   1   1.8e-16   8.4e-15   49.2   0.0   312   377     8    81     4   112 0.82 -
+5001660at2759_1291522_0:000851|TRINITY_DN1011_c0_g1_i1:543-1085|-  -            181 4823929              -            430   0.00012   15.8   0.0   1   1   3.4e-06   0.00016   15.4   0.0   102   150    11    58     2    67 0.79 -
+5001660at2759_1291522_0:000851|TRINITY_DN1011_c0_g1_i6:543-1085|-  -            181 4823929              -            430   0.00012   15.8   0.0   1   1   3.4e-06   0.00016   15.4   0.0   102   150    11    58     2    67 0.79 -
+5001660at2759_4639_0:002dc9|TRINITY_DN927_c0_g1_i3:7556-8350|-     -            265 4823929              -            430   0.00062   13.4   0.0   1   1   2.1e-05     0.001   12.7   0.0   102   129     9    37     6    71 0.81 -
+5001660at2759_4639_0:002dc9|TRINITY_DN927_c0_g1_i4:7556-8350|-     -            265 4823929              -            430   0.00062   13.4   0.0   1   1   2.1e-05     0.001   12.7   0.0   102   129     9    37     6    71 0.81 -
+5001660at2759_4639_0:002dc9|TRINITY_DN927_c0_g1_i7:7556-8350|-     -            265 4823929              -            430   0.00062   13.4   0.0   1   1   2.1e-05     0.001   12.7   0.0   102   129     9    37     6    71 0.81 -
+5011777at2759_29760_0:008394|TRINITY_DN3326_c1_g3_i1:6750-7019|+   -             90 4823929              -            430    0.0072    9.9   0.1   1   1   0.00017     0.008    9.8   0.1   109   132     3    26     1    38 0.88 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/angsuman/extra_spac/RNA_DE_Novo_Analysis/vendor_analysis/data/qc/busco_downloads/lineages/eukaryota_odb12.2/hmms/4823929at2759.hmm
+# Target file:     /home/angsuman/extra_spac/RNA_DE_Novo_Analysis/vendor_analysis/data/qc/busco_results/run_eukaryota_odb12.2/metaeuk_output/rerun_results/Dinoponera gigantea Assembly.fa.modified.fas
+# Option settings: hmmsearch --domtblout /home/angsuman/extra_spac/RNA_DE_Novo_Analysis/vendor_analysis/data/qc/busco_results/run_eukaryota_odb12.2/hmmer_output/rerun_results/4823929at2759.out --cpu 1 /home/angsuman/extra_spac/RNA_DE_Novo_Analysis/vendor_analysis/data/qc/busco_downloads/lineages/eukaryota_odb12.2/hmms/4823929at2759.hmm /home/angsuman/extra_spac/RNA_DE_Novo_Analysis/vendor_analysis/data/qc/busco_results/run_eukaryota_odb12.2/metaeuk_output/rerun_results/Dinoponera gigantea Assembly.fa.modified.fas 
+# Current dir:     /home/angsuman/extra_spac/RNA_DE_Novo_Analysis
+# Date:            Wed Oct  7 16:48:23 2026
+# [ok]

@@ -1,0 +1,20 @@
+#                                                                                                                        --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                    accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                            ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+4837017at2759_76775_0:0002b5|TRINITY_DN504991_c0_g1_i1:1-486|+   -            162 4837017              -            208   3.2e-52  172.8   0.0   1   1   4.2e-54   5.1e-52  172.1   0.0    61   203     6   160     2   162 0.94 -
+4837017at2759_3870_0:006cec|TRINITY_DN360895_c1_g1_i2:70-660|+   -            197 4837017              -            208   5.8e-25   83.8   0.0   1   1   5.1e-27   6.3e-25   83.7   0.0     7   189     3   188     1   197 0.86 -
+4837017at2759_3870_0:006cec|TRINITY_DN360895_c1_g1_i1:82-660|+   -            193 4837017              -            208   7.1e-25   83.5   0.0   1   1   6.3e-27   7.7e-25   83.4   0.0    13   189     4   184     1   193 0.87 -
+4837017at2759_72032_0:000bbe|TRINITY_DN360895_c0_g1_i1:100-624|+ -            175 4837017              -            208   3.7e-23   77.9   0.0   1   1   3.4e-25   4.2e-23   77.7   0.0    18   188     1   175     1   175 0.89 -
+4837017at2759_29808_0:005d9c|TRINITY_DN57_c0_g1_i1:47-664|+      -            206 4837017              -            208   4.9e-22   74.2   0.0   1   1   5.2e-24   6.4e-22   73.8   0.0    18   203     6   195     3   199 0.87 -
+4837017at2759_29808_0:005d9c|TRINITY_DN57_c0_g2_i1:112-684|+     -            191 4837017              -            208   7.5e-20   67.1   0.0   1   1   6.7e-22   8.3e-20   66.9   0.0    31   206     4   183     1   185 0.87 -
+4837017at2759_29808_0:005d9c|TRINITY_DN57_c0_g2_i2:112-684|+     -            191 4837017              -            208   7.5e-20   67.1   0.0   1   1   6.7e-22   8.3e-20   66.9   0.0    31   206     4   183     1   185 0.87 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/angsuman/extra_spac/RNA_DE_Novo_Analysis/vendor_analysis/data/qc/busco_downloads/lineages/eukaryota_odb12.2/hmms/4837017at2759.hmm
+# Target file:     /home/angsuman/extra_spac/RNA_DE_Novo_Analysis/vendor_analysis/data/qc/busco_results/run_eukaryota_odb12.2/metaeuk_output/initial_results/Dinoponera gigantea Assembly.fa.modified.fas
+# Option settings: hmmsearch --domtblout /home/angsuman/extra_spac/RNA_DE_Novo_Analysis/vendor_analysis/data/qc/busco_results/run_eukaryota_odb12.2/hmmer_output/initial_run_results/4837017at2759.out --cpu 1 /home/angsuman/extra_spac/RNA_DE_Novo_Analysis/vendor_analysis/data/qc/busco_downloads/lineages/eukaryota_odb12.2/hmms/4837017at2759.hmm /home/angsuman/extra_spac/RNA_DE_Novo_Analysis/vendor_analysis/data/qc/busco_results/run_eukaryota_odb12.2/metaeuk_output/initial_results/Dinoponera gigantea Assembly.fa.modified.fas 
+# Current dir:     /home/angsuman/extra_spac/RNA_DE_Novo_Analysis
+# Date:            Wed Oct  7 16:18:07 2026
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                                             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+5001280at2759_130708_0:00341e|TRINITY_DN308703_c0_g1_i3:101-679|- -            193 5001280              -            773  2.2e-106  352.5   2.1   1   1  1.2e-108  2.5e-106  352.3   2.1   550   736    10   193     3   193 0.97 -
+5001280at2759_2094558_0:007039|TRINITY_DN192001_c0_g2_i1:8-334|-  -            109 5001280              -            773   6.7e-16   53.3   0.0   1   1   3.4e-18   7.3e-16   53.2   0.0   553   662     1   109     1   109 0.93 -
+707076at2759_1111947_0:0031a8|TRINITY_DN480535_c0_g1_i1:61-1047|- -            329 5001280              -            773      0.67    3.7  25.9   1   1    0.0042      0.91    3.3  25.9   295   456    33   188    28   195 0.55 -
+5004478at2759_2663898_0:000df7|TRINITY_DN700944_c0_g1_i1:2-544|-  -            181 5001280              -            773       8.8   -0.0  14.2   1   1      0.05        11   -0.3  14.2   344   430    21   109     8   133 0.36 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /home/angsuman/extra_spac/RNA_DE_Novo_Analysis/vendor_analysis/data/qc/busco_downloads/lineages/eukaryota_odb12.2/hmms/5001280at2759.hmm
+# Target file:     /home/angsuman/extra_spac/RNA_DE_Novo_Analysis/vendor_analysis/data/qc/busco_results/run_eukaryota_odb12.2/metaeuk_output/initial_results/Dinoponera gigantea Assembly.fa.modified.fas
+# Option settings: hmmsearch --domtblout /home/angsuman/extra_spac/RNA_DE_Novo_Analysis/vendor_analysis/data/qc/busco_results/run_eukaryota_odb12.2/hmmer_output/initial_run_results/5001280at2759.out --cpu 1 /home/angsuman/extra_spac/RNA_DE_Novo_Analysis/vendor_analysis/data/qc/busco_downloads/lineages/eukaryota_odb12.2/hmms/5001280at2759.hmm /home/angsuman/extra_spac/RNA_DE_Novo_Analysis/vendor_analysis/data/qc/busco_results/run_eukaryota_odb12.2/metaeuk_output/initial_results/Dinoponera gigantea Assembly.fa.modified.fas 
+# Current dir:     /home/angsuman/extra_spac/RNA_DE_Novo_Analysis
+# Date:            Wed Oct  7 16:18:07 2026
+# [ok]

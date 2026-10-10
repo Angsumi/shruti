@@ -1,0 +1,9 @@
+Assembly,Category,BUSCO_groups,Percentage
+Vendor assembly (new assessment),Complete single-copy,36,28.8
+Vendor assembly (new assessment),Complete duplicated,8,6.4
+Vendor assembly (new assessment),Fragmented,38,30.4
+Vendor assembly (new assessment),Missing,43,34.4
+Local assembly (saved result),Complete single-copy,52,41.6
+Local assembly (saved result),Complete duplicated,33,26.4
+Local assembly (saved result),Fragmented,36,28.8
+Local assembly (saved result),Missing,4,3.2

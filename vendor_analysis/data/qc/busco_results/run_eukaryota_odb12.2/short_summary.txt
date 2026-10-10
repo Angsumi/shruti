@@ -1,0 +1,18 @@
+# BUSCO version is: 6.1.0 
+# The lineage dataset is: eukaryota_odb12.2 (Creation date: 2026-05-13, number of genomes: 167, number of BUSCOs: 125)
+# Summarized benchmarking in BUSCO notation for file /home/angsuman/extra_spac/RNA_DE_Novo_Analysis/vendor_analysis/extracted_results/OPL_mRNA_3_24201_Analysis_Results/Transcriptome DeNovo Assembly/Dinoponera gigantea Assembly.fa
+# BUSCO was run in mode: euk_tran
+
+	***** Results: *****
+
+	C:35.2%[S:28.8%,D:6.4%],F:30.4%,M:34.4%,n:125	   
+	44	Complete BUSCOs (C)			   
+	36	Complete and single-copy BUSCOs (S)	   
+	8	Complete and duplicated BUSCOs (D)	   
+	38	Fragmented BUSCOs (F)			   
+	43	Missing BUSCOs (M)			   
+	125	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.4
+	metaeuk: 7.bba0d80

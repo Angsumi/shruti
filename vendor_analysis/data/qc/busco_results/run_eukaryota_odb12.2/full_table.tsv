@@ -1,0 +1,139 @@
+# BUSCO version is: 6.1.0 
+# The lineage dataset is: eukaryota_odb12.2 (Creation date: 2026-05-13, number of genomes: 167, number of BUSCOs: 125)
+# Busco id	Status	Sequence	Score	Length	OrthoDB url	Description
+115730at2759	Complete	TRINITY_DN93712_c0_g1_i1:2-916	418.1	305	https://v12-2.orthodb.org/?query=115730at2759	component of KRR1 small subunit processome
+129234at2759	Fragmented	TRINITY_DN568110_c0_g1_i1:214-549	176.4	112	https://v12-2.orthodb.org/?query=129234at2759	Vacuolar sorting-associated 29
+160487at2759	Missing
+201273at2759	Complete	TRINITY_DN21240_c0_g1_i1:69-845	466.0	259	https://v12-2.orthodb.org/?query=201273at2759	ribosomal protein
+207567at2759	Fragmented	TRINITY_DN870549_c0_g1_i1:1-285	151.8	95	https://v12-2.orthodb.org/?query=207567at2759	60s ribosome subunit biogenesis protein nip7
+260326at2759	Complete	TRINITY_DN562190_c0_g1_i1:2-499	198.2	166	https://v12-2.orthodb.org/?query=260326at2759	dna-directed rna polymerase ii
+288615at2759	Missing
+319730at2759	Duplicated	TRINITY_DN3031_c0_g3_i2:6056-7339	341.7	428	https://v12-2.orthodb.org/?query=319730at2759	Seryl-tRNA synthetase
+319730at2759	Duplicated	TRINITY_DN38135_c0_g2_i4:7066-8334	336.4	423	https://v12-2.orthodb.org/?query=319730at2759	Seryl-tRNA synthetase
+319730at2759	Duplicated	TRINITY_DN38135_c0_g2_i9:7066-8334	336.4	423	https://v12-2.orthodb.org/?query=319730at2759	Seryl-tRNA synthetase
+340246at2759	Missing
+345792at2759	Complete	TRINITY_DN295598_c0_g2_i1:431-1240	432.7	270	https://v12-2.orthodb.org/?query=345792at2759	rRNA 2'-O-methyltransferase fibrillarin 2
+352891at2759	Complete	TRINITY_DN827731_c0_g1_i1:100-861	398.1	254	https://v12-2.orthodb.org/?query=352891at2759	Proteasome
+529759at2759	Fragmented	TRINITY_DN475144_c0_g1_i1:12-377	190.6	122	https://v12-2.orthodb.org/?query=529759at2759	Translation initiation factor
+530014at2759	Missing
+530740at2759	Fragmented	TRINITY_DN761821_c0_g1_i1:1-579	319.0	193	https://v12-2.orthodb.org/?query=530740at2759	RING finger protein
+538728at2759	Missing
+538952at2759	Fragmented	TRINITY_DN824461_c0_g1_i1:6-497	283.8	164	https://v12-2.orthodb.org/?query=538952at2759	RIO1
+539632at2759	Fragmented	TRINITY_DN317206_c0_g3_i2:1-507	141.0	169	https://v12-2.orthodb.org/?query=539632at2759	Translation initiation factor 2
+540946at2759	Fragmented	TRINITY_DN898532_c0_g1_i1:4-552	180.1	183	https://v12-2.orthodb.org/?query=540946at2759	DNA PRIMASE
+541070at2759	Duplicated	TRINITY_DN402834_c0_g1_i1:16-693	178.8	226	https://v12-2.orthodb.org/?query=541070at2759	PYRIDOXAL PHOSPHATE HOMEOSTASIS PROTEIN
+541070at2759	Duplicated	TRINITY_DN11120_c0_g1_i1:2644-3345	189.3	234	https://v12-2.orthodb.org/?query=541070at2759	PYRIDOXAL PHOSPHATE HOMEOSTASIS PROTEIN
+541070at2759	Duplicated	TRINITY_DN11120_c0_g1_i5:2644-3345	189.3	234	https://v12-2.orthodb.org/?query=541070at2759	PYRIDOXAL PHOSPHATE HOMEOSTASIS PROTEIN
+554735at2759	Complete	TRINITY_DN789951_c0_g1_i1:578-1336	352.1	253	https://v12-2.orthodb.org/?query=554735at2759	electron transfer flavoprotein beta subunit
+649304at2759	Missing
+707076at2759	Complete	TRINITY_DN486297_c0_g1_i1:2-754	307.0	251	https://v12-2.orthodb.org/?query=707076at2759	methyltransferase
+707202at2759	Fragmented	TRINITY_DN681790_c0_g1_i1:2-544	159.4	181	https://v12-2.orthodb.org/?query=707202at2759	RNA 3 -Terminal Phosphate Cyclase
+727964at2759	Complete	TRINITY_DN915_c0_g12_i1:31381-32280	72.2	300	https://v12-2.orthodb.org/?query=727964at2759	Transferase
+730114at2759	Fragmented	TRINITY_DN440903_c0_g1_i1:0-983	353.5	328	https://v12-2.orthodb.org/?query=730114at2759	PHOSPHOACETYLGLUCOSAMINE MUTASE
+760428at2759	Fragmented	TRINITY_DN819494_c0_g1_i1:4-498	252.6	165	https://v12-2.orthodb.org/?query=760428at2759	Beta subunit of farnesyltransferase
+776280at2759	Duplicated	TRINITY_DN64189_c2_g1_i20:12699-14351	62.3	551	https://v12-2.orthodb.org/?query=776280at2759	Asparagine synthetase domain-containing protein
+776280at2759	Duplicated	TRINITY_DN4661_c0_g1_i1:4097-5725	58.9	543	https://v12-2.orthodb.org/?query=776280at2759	Asparagine synthetase domain-containing protein
+801816at2759	Complete	TRINITY_DN858589_c0_g1_i1:152-655	217.5	168	https://v12-2.orthodb.org/?query=801816at2759	Trafficking protein particle complex subunit
+2852757at2759	Complete	TRINITY_DN477267_c0_g1_i1:221-1240	405.9	340	https://v12-2.orthodb.org/?query=2852757at2759	26S proteasome non-ATPase regulatory subunit 3
+3643464at2759	Fragmented	TRINITY_DN483293_c0_g1_i1:0-719	278.8	240	https://v12-2.orthodb.org/?query=3643464at2759	gamma-tubulin complex component
+4613677at2759	Complete	TRINITY_DN902848_c0_g1_i1:168-554	100.7	129	https://v12-2.orthodb.org/?query=4613677at2759	programmed cell death protein
+4695236at2759	Complete	TRINITY_DN150917_c0_g1_i3:420-3167	93.9	916	https://v12-2.orthodb.org/?query=4695236at2759	tRNA synthetase
+4747214at2759	Complete	TRINITY_DN37104_c0_g1_i4:47-478	126.0	144	https://v12-2.orthodb.org/?query=4747214at2759	rna polymerase i
+4764044at2759	Fragmented	TRINITY_DN846546_c0_g1_i1:2-898	287.8	299	https://v12-2.orthodb.org/?query=4764044at2759	UBIQUITIN CARBOXYL-TERMINAL HYDROLASE
+4803900at2759	Complete	TRINITY_DN28327_c0_g1_i1:363-713	152.4	117	https://v12-2.orthodb.org/?query=4803900at2759	DNA-directed RNA polymerase
+4810093at2759	Missing
+4813267at2759	Fragmented	TRINITY_DN52596_c0_g2_i1:2-703	165.7	234	https://v12-2.orthodb.org/?query=4813267at2759	Transcription elongation factor
+4823929at2759	Fragmented	TRINITY_DN633974_c0_g1_i1:1-597	277.4	199	https://v12-2.orthodb.org/?query=4823929at2759	CLP1
+4837017at2759	Duplicated	TRINITY_DN360895_c1_g1_i2:70-660	83.8	197	https://v12-2.orthodb.org/?query=4837017at2759	MRNA turnover protein
+4837017at2759	Duplicated	TRINITY_DN360895_c1_g1_i1:82-660	83.5	193	https://v12-2.orthodb.org/?query=4837017at2759	MRNA turnover protein
+4837017at2759	Duplicated	TRINITY_DN360895_c0_g1_i1:100-624	77.9	175	https://v12-2.orthodb.org/?query=4837017at2759	MRNA turnover protein
+4838864at2759	Missing
+4843240at2759	Fragmented	TRINITY_DN153323_c0_g2_i1:3-467	84.0	155	https://v12-2.orthodb.org/?query=4843240at2759	anaphase-promoting complex subunit
+4843824at2759	Missing
+4867008at2759	Complete	TRINITY_DN445_c0_g1_i1:2-523	290.1	174	https://v12-2.orthodb.org/?query=4867008at2759	malignant T-cell-amplified sequence 1-A
+4888252at2759	Missing
+4896098at2759	Complete	TRINITY_DN505437_c0_g1_i1:53-721	239.7	223	https://v12-2.orthodb.org/?query=4896098at2759	cytochrome C oxidase assembly protein
+4900375at2759	Fragmented	TRINITY_DN401643_c0_g1_i1:2-364	82.4	121	https://v12-2.orthodb.org/?query=4900375at2759	GINS complex
+4908955at2759	Fragmented	TRINITY_DN530125_c0_g1_i1:1-411	288.6	137	https://v12-2.orthodb.org/?query=4908955at2759	COP9 signalosome
+4911644at2759	Missing
+4940884at2759	Missing
+4969018at2759	Missing
+4969636at2759	Complete	TRINITY_DN602658_c0_g1_i2:8-880	313.8	291	https://v12-2.orthodb.org/?query=4969636at2759	2-(3-amino-3-carboxypropyl)histidine synthase subunit 1
+4969990at2759	Missing
+4970387at2759	Complete	TRINITY_DN833599_c0_g1_i1:333-806	169.5	158	https://v12-2.orthodb.org/?query=4970387at2759	prefoldin
+4970538at2759	Missing
+4971272at2759	Duplicated	TRINITY_DN759607_c0_g1_i2:60-1406	489.5	449	https://v12-2.orthodb.org/?query=4971272at2759	26s proteasome non-ATPase regulatory subunit 12
+4971272at2759	Duplicated	TRINITY_DN759607_c0_g1_i3:60-1406	489.5	449	https://v12-2.orthodb.org/?query=4971272at2759	26s proteasome non-ATPase regulatory subunit 12
+4974767at2759	Complete	TRINITY_DN1619_c0_g1_i5:39-470	235.6	144	https://v12-2.orthodb.org/?query=4974767at2759	bud31
+4975094at2759	Fragmented	TRINITY_DN547_c1_g1_i1:5508-6143	61.9	212	https://v12-2.orthodb.org/?query=4975094at2759	FACT complex subunit
+4976279at2759	Missing
+4977163at2759	Complete	TRINITY_DN821377_c0_g1_i1:1-550	133.3	171	https://v12-2.orthodb.org/?query=4977163at2759	DNA REPLICATION COMPLEX GINS PROTEIN PSF2
+4977863at2759	Fragmented	TRINITY_DN808040_c0_g1_i1:13-330	95.3	106	https://v12-2.orthodb.org/?query=4977863at2759	u3 small nucleolar RNA-associated protein
+4983000at2759	Missing
+4985971at2759	Complete	TRINITY_DN5790_c0_g1_i2:19-897	334.1	293	https://v12-2.orthodb.org/?query=4985971at2759	Gpn-loop gtpase
+4986044at2759	Fragmented	TRINITY_DN620469_c0_g1_i1:12-428	187.6	139	https://v12-2.orthodb.org/?query=4986044at2759	transcription factor
+4987397at2759	Missing
+4988239at2759	Missing
+4999134at2759	Fragmented	TRINITY_DN634385_c0_g1_i1:1-714	337.6	238	https://v12-2.orthodb.org/?query=4999134at2759	pre-mRNA-processing-splicing factor
+5000045at2759	Complete	TRINITY_DN472789_c0_g1_i1:2-835	277.5	278	https://v12-2.orthodb.org/?query=5000045at2759	26S proteasome non-ATPase regulatory subunit 13
+5000152at2759	Fragmented	TRINITY_DN853968_c0_g1_i1:0-758	288.1	253	https://v12-2.orthodb.org/?query=5000152at2759	splicing factor
+5000362at2759	Missing
+5000371at2759	Missing
+5000452at2759	Fragmented	TRINITY_DN419824_c0_g1_i1:8-322	104.2	105	https://v12-2.orthodb.org/?query=5000452at2759	COATOMER SUBUNIT EPSILON
+5000476at2759	Complete	TRINITY_DN508505_c0_g1_i1:2-943	480.1	314	https://v12-2.orthodb.org/?query=5000476at2759	26S proteasome non-ATPase regulatory subunit
+5000743at2759	Duplicated	TRINITY_DN241398_c0_g2_i1:66-584	304.7	173	https://v12-2.orthodb.org/?query=5000743at2759	acetyltransferase
+5000743at2759	Duplicated	TRINITY_DN241398_c0_g2_i2:66-584	304.7	173	https://v12-2.orthodb.org/?query=5000743at2759	acetyltransferase
+5000823at2759	Fragmented	TRINITY_DN886169_c0_g1_i1:4-612	271.8	203	https://v12-2.orthodb.org/?query=5000823at2759	EUKARYOTIC TRANSLATION INITIATION FACTOR 3 SUBUNIT A
+5000870at2759	Missing
+5000986at2759	Missing
+5001156at2759	Duplicated	TRINITY_DN28833_c0_g1_i2:217-966	122.1	250	https://v12-2.orthodb.org/?query=5001156at2759	catalytic subunit of tRNA (adenine(58)-N(1))-methyltransferase
+5001156at2759	Duplicated	TRINITY_DN28833_c0_g1_i1:217-966	120.8	250	https://v12-2.orthodb.org/?query=5001156at2759	catalytic subunit of tRNA (adenine(58)-N(1))-methyltransferase
+5001273at2759	Missing
+5001280at2759	Fragmented	TRINITY_DN308703_c0_g1_i3:101-679	352.5	193	https://v12-2.orthodb.org/?query=5001280at2759	TSR1
+5001318at2759	Complete	TRINITY_DN3038_c0_g1_i1:113-901	210.7	263	https://v12-2.orthodb.org/?query=5001318at2759	peptidyl-prolyl cis-trans isomerase
+5001413at2759	Fragmented	TRINITY_DN953925_c0_g1_i1:1-381	164.6	127	https://v12-2.orthodb.org/?query=5001413at2759	diphthine
+5001473at2759	Complete	TRINITY_DN633749_c0_g1_i1:67-456	157.6	130	https://v12-2.orthodb.org/?query=5001473at2759	DNA-DIRECTED RNA POLYMERASE I
+5001660at2759	Fragmented	TRINITY_DN61046_c0_g1_i1:2-1018	295.8	339	https://v12-2.orthodb.org/?query=5001660at2759	GTP-binding protein
+5001734at2759	Complete	TRINITY_DN900483_c0_g1_i1:45-554	173.4	170	https://v12-2.orthodb.org/?query=5001734at2759	Pre-mRNA-splicing factor
+5001941at2759	Missing
+5002334at2759	Missing
+5002573at2759	Fragmented	TRINITY_DN497950_c0_g1_i1:58-678	288.4	207	https://v12-2.orthodb.org/?query=5002573at2759	pelota
+5003022at2759	Missing
+5003192at2759	Missing
+5003205at2759	Missing
+5003856at2759	Missing
+5003972at2759	Complete	TRINITY_DN2335_c1_g1_i7:13222-13761	59.3	180	https://v12-2.orthodb.org/?query=5003972at2759	tRNA-(guanine-N(7)-)-methyltransferase, methyltransferase
+5004118at2759	Missing
+5004265at2759	Fragmented	TRINITY_DN951756_c0_g1_i1:1-677	113.3	186	https://v12-2.orthodb.org/?query=5004265at2759	Mak16
+5004327at2759	Missing
+5004391at2759	Fragmented	TRINITY_DN363_c0_g1_i1:1-1047	262.6	349	https://v12-2.orthodb.org/?query=5004391at2759	Translation Initiation Factor
+5004478at2759	Missing
+5004599at2759	Missing
+5005010at2759	Complete	TRINITY_DN581562_c0_g1_i1:31-480	119.5	150	https://v12-2.orthodb.org/?query=5005010at2759	Prefoldin
+5005174at2759	Complete	TRINITY_DN765181_c0_g1_i1:92-766	79.6	225	https://v12-2.orthodb.org/?query=5005174at2759	ribosome biogenesis regulatory protein protein
+5005196at2759	Fragmented	TRINITY_DN773801_c0_g1_i1:2-835	372.6	278	https://v12-2.orthodb.org/?query=5005196at2759	SOF1
+5005215at2759	Missing
+5005217at2759	Fragmented	TRINITY_DN679611_c0_g1_i1:14-415	133.3	134	https://v12-2.orthodb.org/?query=5005217at2759	gdp-man:man(3)glcnac(2)-pp-dol alpha-1,2-mannosyltransferase
+5005274at2759	Fragmented	TRINITY_DN935977_c0_g1_i1:13-399	122.0	129	https://v12-2.orthodb.org/?query=5005274at2759	RRNA processing protein
+5005697at2759	Complete	TRINITY_DN634569_c0_g1_i1:12-1124	375.2	371	https://v12-2.orthodb.org/?query=5005697at2759	signal recognition particle
+5005750at2759	Complete	TRINITY_DN827056_c0_g1_i1:9-440	103.3	144	https://v12-2.orthodb.org/?query=5005750at2759	H/ACA ribonucleoprotein complex subunit
+5005892at2759	Missing
+5006326at2759	Complete	TRINITY_DN2335_c0_g7_i1:4316-6724	128.7	803	https://v12-2.orthodb.org/?query=5006326at2759	Phenylalanine--trna ligase beta subunit
+5006412at2759	Complete	TRINITY_DN612159_c0_g1_i1:1-468	123.5	156	https://v12-2.orthodb.org/?query=5006412at2759	U3 small nucleolar
+5011777at2759	Fragmented	TRINITY_DN572336_c0_g1_i1:29-394	78.4	122	https://v12-2.orthodb.org/?query=5011777at2759	chromosome transmission fidelity protein 18
+5013042at2759	Fragmented	TRINITY_DN862302_c0_g1_i1:0-506	245.4	169	https://v12-2.orthodb.org/?query=5013042at2759	Signalosome subunit 4
+5013067at2759	Complete	TRINITY_DN896764_c0_g1_i1:1-795	383.9	265	https://v12-2.orthodb.org/?query=5013067at2759	Eukaryotic translation initiation factor 3 subunit
+5013259at2759	Duplicated	TRINITY_DN913745_c0_g1_i1:31-543	233.7	171	https://v12-2.orthodb.org/?query=5013259at2759	Ribosome biogenesis protein
+5013259at2759	Duplicated	TRINITY_DN602879_c0_g1_i1:5-466	223.9	154	https://v12-2.orthodb.org/?query=5013259at2759	Ribosome biogenesis protein
+5013539at2759	Fragmented	TRINITY_DN508482_c0_g1_i1:1-417	169.7	139	https://v12-2.orthodb.org/?query=5013539at2759	Ribosome biogenesis protein
+5013726at2759	Missing
+5013738at2759	Complete	TRINITY_DN43956_c0_g1_i1:587-1294	279.0	236	https://v12-2.orthodb.org/?query=5013738at2759	RNA-binding protein
+5013992at2759	Missing
+5014007at2759	Missing
+5015403at2759	Complete	TRINITY_DN558496_c0_g1_i1:1-1086	401.7	362	https://v12-2.orthodb.org/?query=5015403at2759	Phenylalanyl-tRNA synthetase
+5015647at2759	Missing
+5015712at2759	Fragmented	TRINITY_DN516912_c0_g1_i1:123-1052	441.0	310	https://v12-2.orthodb.org/?query=5015712at2759	Splicing factor
+5015742at2759	Missing
+5015876at2759	Fragmented	TRINITY_DN563779_c0_g1_i1:0-449	113.7	150	https://v12-2.orthodb.org/?query=5015876at2759	WD repeat-containing protein
+5017019at2759	Missing
+5018803at2759	Missing

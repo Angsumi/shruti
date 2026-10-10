@@ -1,0 +1,8 @@
+name: vendor-busco
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - busco=6.1.0
+  - metaeuk=7.bba0d80
+  - hmmer=3.4
